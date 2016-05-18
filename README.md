@@ -4,13 +4,13 @@
 
 `filesystem-benchmark` is a set of `fio` based benchmarks, for testing filesystem performance.
 
-## Getting Project
+## Getting `filesystem-benchmark`
 
 Clone the git repository: https://github.com/giantswarm/filesystem-benchmark.git
 
 Download the latest docker image from here: https://hub.docker.com/r/giantswarm/filesystem-benchmark/
 
-## Running PROJECT
+## Running `filesystem-benchmark`
 
 - `docker run -ti -v $HOST_TEST_DIRECTORY:/test-dir giantswarm/filesystem-benchmark /test-dir`
 
