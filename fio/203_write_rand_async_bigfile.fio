@@ -1,0 +1,10 @@
+; Writes a 4G file in random order with 512K block size asynchronously.
+; The actual filesize does not matter too much but to keep the tests running a bit longer.
+[rand-writer]
+ioengine=libaio
+rw=randwrite
+size=4G
+bs=512K
+direct=1
+numjobs=4
+iodepth=4

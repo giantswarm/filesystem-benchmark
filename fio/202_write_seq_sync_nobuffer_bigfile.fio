@@ -1,0 +1,12 @@
+; Writes a 1G file in sequential order with different block sizes synchronously and O_DIRECT is turned on.
+; This should bypass any Kernel buffering and test direct filesystem or device performance.
+; Workloads with file sizes like these usually appear in database transaction logs.
+[global]
+ioengine=sync
+rw=write
+direct=1
+sync=1
+size=1G
+
+[sync-write-64k]
+bs=64K

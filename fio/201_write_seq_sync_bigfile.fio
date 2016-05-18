@@ -1,0 +1,9 @@
+; Writes a 4G file in sequential order with 512K block size synchronously . O_DIRECT is turned off in this test.
+; The actual filesize does not matter too much but to keep the tests running a bit longer.
+; This should work similar to what dd does. (https://github.com/coreutils/coreutils/blob/master/src/dd.c)
+[seq-writer]
+ioengine=sync
+rw=write
+bs=512K
+direct=0
+size=4G
