@@ -1,0 +1,6 @@
+[write-large-file]
+description=Test a larger file
+ioengine=sync
+readwrite=write
+size=2GB
+blocksize=4KB

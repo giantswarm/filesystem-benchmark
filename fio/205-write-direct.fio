@@ -1,0 +1,7 @@
+[write-direct]
+description=Test writing with O_DIRECT
+ioengine=sync
+readwrite=write
+size=1GB
+blocksize=4KB
+direct=1

@@ -1,0 +1,6 @@
+[read-control]
+description=Control test for read operations
+ioengine=sync
+readwrite=read
+size=1GB
+blocksize=4KB

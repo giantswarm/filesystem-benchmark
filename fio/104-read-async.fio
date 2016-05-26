@@ -1,0 +1,6 @@
+[read-async]
+description=Test reading asynchronously
+ioengine=libaio
+readwrite=read
+size=1GB
+blocksize=4KB
