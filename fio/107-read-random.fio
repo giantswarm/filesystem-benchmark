@@ -1,0 +1,6 @@
+[read-random]
+description=Test async random reads
+ioengine=libaio
+readwrite=randread
+size=1GB
+blocksize=4KB

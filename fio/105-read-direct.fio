@@ -1,0 +1,7 @@
+[read-direct]
+description=Test reading with O_DIRECT
+ioengine=sync
+readwrite=read
+size=1GB
+blocksize=4KB
+direct=1

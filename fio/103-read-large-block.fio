@@ -1,0 +1,6 @@
+[read-large-block]
+description=Test larger block sizes
+ioengine=sync
+readwrite=read
+size=1GB
+blocksize=16KB

@@ -1,0 +1,6 @@
+[read-large-file]
+description=Test a larger file
+ioengine=sync
+readwrite=read
+size=2GB
+blocksize=4KB

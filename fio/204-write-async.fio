@@ -1,0 +1,6 @@
+[write-async]
+description=Test writing asynchronously
+ioengine=libaio
+readwrite=write
+size=1GB
+blocksize=4KB

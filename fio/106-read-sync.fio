@@ -1,0 +1,7 @@
+[read-sync]
+description=Test reading with O_SYNC
+ioengine=sync
+readwrite=read
+size=1GB
+blocksize=4KB
+sync=1

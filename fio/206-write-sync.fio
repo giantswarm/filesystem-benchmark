@@ -1,0 +1,7 @@
+[write-sync]
+description=Test writing with O_SYNC
+ioengine=sync
+readwrite=write
+size=1GB
+blocksize=4KB
+sync=1

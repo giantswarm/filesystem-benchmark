@@ -1,0 +1,6 @@
+[write-control]
+description=Control test for write operations
+ioengine=sync
+readwrite=write
+size=1GB
+blocksize=4KB

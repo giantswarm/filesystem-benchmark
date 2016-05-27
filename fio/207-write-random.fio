@@ -1,0 +1,6 @@
+[write-random]
+description=Test async random writes
+ioengine=libaio
+readwrite=randwrite
+size=1GB
+blocksize=4KB
