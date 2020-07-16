@@ -1,6 +1,6 @@
 # filesystem-benchmark
 
-[![](https://img.shields.io/docker/pulls/giantswarm/filesystem-benchmark.svg)](http://hub.docker.com/giantswarm/filesystem-benchmark) [![IRC Channel](https://img.shields.io/badge/irc-%23giantswarm-blue.svg)](https://kiwiirc.com/client/irc.freenode.net/#giantswarm)
+[![](https://img.shields.io/docker/pulls/giantswarm/filesystem-benchmark.svg)](http://hub.docker.com/giantswarm/filesystem-benchmark)
 
 `filesystem-benchmark` is a set of `fio` based benchmarks, for testing filesystem performance.
 
@@ -17,7 +17,6 @@ Download the latest docker image from here: https://hub.docker.com/r/giantswarm/
 ## Contact
 
 - Mailing list: [giantswarm](https://groups.google.com/forum/!forum/giantswarm)
-- IRC: #[giantswarm](irc://irc.freenode.org:6667/#giantswarm) on freenode.org
 - Bugs: [issues](https://github.com/giantswarm/filesystem-benchmark/issues)
 
 ## License
